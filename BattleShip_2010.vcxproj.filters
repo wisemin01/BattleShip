@@ -1,0 +1,496 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns:atg="http://atg.xbox.com" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{8e114980-c1a3-4ada-ad7c-83caadf5daeb}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+    <Filter Include="DXUT">
+      <UniqueIdentifier>{a43c5c25-0e86-4a20-b64a-883785ff74fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders">
+      <UniqueIdentifier>{2c3d4c8c-5d1a-459a-a05a-a4e4b608a44e}</UniqueIdentifier>
+      <Extensions>fx;fxh;hlsl</Extensions>
+    </Filter>
+    <Filter Include="maingame">
+      <UniqueIdentifier>{fc5b0c66-6e5f-40f8-a5ed-79e73ed28e5e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UTILITY">
+      <UniqueIdentifier>{9957b491-995b-4b1a-a3fe-47011fd99d33}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cAnimation">
+      <UniqueIdentifier>{dd3665ac-a77a-4ba8-be8a-cfecd58c82b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="USER">
+      <UniqueIdentifier>{2f01c096-9de6-4534-bf20-7a9d46737836}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="USER\MANAGERS">
+      <UniqueIdentifier>{6626704b-32f0-4e4f-b1ce-e85deed97f24}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="USER\MANAGERS\cSceneManager">
+      <UniqueIdentifier>{2ae2394b-b18b-451c-bf64-6a9b1034e070}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="USER\MANAGERS\cObjectManager">
+      <UniqueIdentifier>{1fb58b52-df28-4051-9ec0-a1aa0774f819}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="USER\MANAGERS\cImageManager">
+      <UniqueIdentifier>{d58b059a-ad8c-4c42-9055-7384d212c9c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="USER\MANAGERS\cGameManager">
+      <UniqueIdentifier>{71d35561-cebd-49c5-af6f-665c46cdfe0d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="USER\MANAGERS\cTextManager">
+      <UniqueIdentifier>{782f464c-d57e-47d1-b71f-3af30f468bf6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="USER\MANAGERS\cInputManager">
+      <UniqueIdentifier>{a11fb8d1-77f7-4416-aa6a-7a465bd350f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="USER\MANAGERS\cMapLoader">
+      <UniqueIdentifier>{493de033-068e-4cc1-9581-5f58ebbc444b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="USER\MANAGERS\cSoundManager">
+      <UniqueIdentifier>{007627f8-6f8c-445f-86bd-1a85dde86f13}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="USER\MANAGERS\cFade">
+      <UniqueIdentifier>{56f39a6c-6e21-4109-b38a-63a9787c9787}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="USER\GAMEOBJECT">
+      <UniqueIdentifier>{849eb50f-69fb-4593-af45-05e7575b056c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="USER\GAMEOBJECT\cGameObject">
+      <UniqueIdentifier>{44b4bc4d-0059-483a-af96-85e649401b9f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="USER\GAMEOBJECT\ANY">
+      <UniqueIdentifier>{54b4e620-d814-43ba-8110-292ebe1efd93}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="USER\GAMEOBJECT\ANY\cViewPointMover">
+      <UniqueIdentifier>{d192c872-1692-493f-b3ab-2d2c8754c57b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="USER\GAMEOBJECT\GUI">
+      <UniqueIdentifier>{ade0ad0b-8af8-4318-b092-a111effa5ab4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="USER\GAMEOBJECT\GUI\cTimerString">
+      <UniqueIdentifier>{6c0ec4eb-bd91-478c-84db-84a1e12ab244}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="USER\GAMEOBJECT\GUI\cImageUI">
+      <UniqueIdentifier>{0b07155a-2696-4b4a-a0b4-79f3f19c887f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="USER\GAMEOBJECT\GUI\cHpBar">
+      <UniqueIdentifier>{419c5ff5-d18b-4ffd-b004-01befab33c60}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="USER\GAMEOBJECT\GUI\cButton">
+      <UniqueIdentifier>{8ed2334e-3ec6-4383-bc33-fa9378702a92}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="USER\GAMEOBJECT\TILES">
+      <UniqueIdentifier>{c9d60ca9-e09c-4905-abf6-70d79021d2dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="USER\GAMEOBJECT\TILES\cTileObjectUnit">
+      <UniqueIdentifier>{5364b64f-ba9e-4adc-a72a-d38312d10489}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="USER\GAMEOBJECT\TILES\cTileObject">
+      <UniqueIdentifier>{6658ba75-7370-4f38-802c-c81bf6ee0b1e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="USER\GAMEOBJECT\TILES\cTileMap">
+      <UniqueIdentifier>{1257177f-ddb0-495d-9a3d-b11833ca40c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="USER\GAMEOBJECT\TILES\cIngameTileObject">
+      <UniqueIdentifier>{24b0548d-b0c6-4eca-8fb5-cf39166a6f6d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="USER\GAMEOBJECT\CANNON">
+      <UniqueIdentifier>{aa3b80ee-7c4a-4dbc-9b78-2d16ed79cf64}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="USER\GAMEOBJECT\CANNON\cCannon">
+      <UniqueIdentifier>{02116ba4-8e67-4ca3-9c24-231ee31e4174}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="USER\GAMEOBJECT\CANNON\cPlayerCannon">
+      <UniqueIdentifier>{71f19c6f-97ac-4684-a330-ceaeeffa6ccb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="USER\GAMEOBJECT\CANNON\cEnemyCannon">
+      <UniqueIdentifier>{9f805d96-b81f-44dc-bbf6-3f93b49efeb5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="USER\GAMEOBJECT\EFFECT">
+      <UniqueIdentifier>{cf4ed136-3fc4-4381-a9fd-2531fcb4d234}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="USER\GAMEOBJECT\EFFECT\cTileExplode">
+      <UniqueIdentifier>{f1e55b61-af48-42bc-9b16-1542f97d0513}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="USER\GAMEOBJECT\EFFECT\cTileSmoke">
+      <UniqueIdentifier>{5fb0a69c-9b36-441e-bda7-4ac4888830e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="USER\GAMEOBJECT\MAP">
+      <UniqueIdentifier>{7d4224a4-4e24-4df8-98bb-7f182b292698}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="USER\GAMEOBJECT\MAP\cScroolMap">
+      <UniqueIdentifier>{249adec5-1337-4ab7-8902-93df228f6b3c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="USER\GAMEOBJECT\CASTLES">
+      <UniqueIdentifier>{943c160e-36d4-4c69-adc2-5b7c02a259e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="USER\GAMEOBJECT\CASTLES\cCastle">
+      <UniqueIdentifier>{209ca46f-c27e-4e29-97fe-b447306f2edc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="USER\GAMEOBJECT\CASTLES\cPlayerCastle">
+      <UniqueIdentifier>{44c18b11-cd4f-4762-8c71-033c7e9bb905}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="USER\GAMEOBJECT\CASTLES\cEnemyCastle">
+      <UniqueIdentifier>{ffabb088-3465-4899-bff5-3c8b94c3b54f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="USER\GAMEOBJECT\SOLDIER">
+      <UniqueIdentifier>{d25450a9-cf54-4a78-b781-52cd2cf50b75}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="USER\GAMEOBJECT\SOLDIER\cSoldier">
+      <UniqueIdentifier>{bf5ed094-b57e-44d4-9343-2c8c7a11313c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="USER\GAMEOBJECT\SOLDIER\cPlayerSoldier">
+      <UniqueIdentifier>{7d50c778-b742-4597-a200-497bf8a5f3b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="USER\GAMEOBJECT\SOLDIER\cEnemySolier">
+      <UniqueIdentifier>{0043022f-589f-4c96-9dcd-6baa13d0fcd3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="USER\SCENES">
+      <UniqueIdentifier>{4feb9ee9-1801-450f-9d83-dc7be3395751}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="USER\SCENES\cScene">
+      <UniqueIdentifier>{6e5fb242-dad6-4100-b7fd-72ac30b6d7ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="USER\SCENES\cLoadingScene">
+      <UniqueIdentifier>{1625cd62-2d24-42b3-ad9a-b7c7a8916f09}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="USER\SCENES\cIntroScene">
+      <UniqueIdentifier>{6461828a-498b-4077-9620-4d9f81f92f70}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="USER\SCENES\cMainmenuScene">
+      <UniqueIdentifier>{0bdec4b8-8d5f-4d8a-99eb-c26429d2ced3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="USER\SCENES\cIngameScene">
+      <UniqueIdentifier>{3bcd3cd1-a3cc-451b-934e-4301f12ec1b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="USER\SCENES\cShipPlaceScene">
+      <UniqueIdentifier>{505390c0-3ef0-4316-a8c9-4b622efc104d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="USER\GAMEOBJECT\GUI\cScoreBoard">
+      <UniqueIdentifier>{1dccff13-61ff-440a-9943-c18a0153333c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DXUT\Optional\directx.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <ClInclude Include="DXUT\Core\DXUT.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="DXUT\Core\DXUTenum.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="DXUT\Core\DXUTmisc.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClCompile Include="DXUT\Core\DXUT.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="DXUT\Core\DXUTenum.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="DXUT\Core\DXUTmisc.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <ClInclude Include="DXUT\Optional\DXUTcamera.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="DXUT\Optional\DXUTgui.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="DXUT\Optional\DXUTres.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="DXUT\Optional\DXUTsettingsdlg.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="DXUT\Optional\SDKmesh.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="DXUT\Optional\SDKmisc.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClCompile Include="DXUT\Optional\DXUTcamera.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="DXUT\Optional\DXUTgui.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="DXUT\Optional\DXUTres.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="DXUT\Optional\DXUTsettingsdlg.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="DXUT\Optional\SDKmesh.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="DXUT\Optional\SDKmisc.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="BattleShip.cpp" />
+    <ClCompile Include="maingame.cpp">
+      <Filter>maingame</Filter>
+    </ClCompile>
+    <ClCompile Include="cGameManager.cpp">
+      <Filter>USER\MANAGERS\cGameManager</Filter>
+    </ClCompile>
+    <ClCompile Include="cImageManager.cpp">
+      <Filter>USER\MANAGERS\cImageManager</Filter>
+    </ClCompile>
+    <ClCompile Include="cSceneManager.cpp">
+      <Filter>USER\MANAGERS\cSceneManager</Filter>
+    </ClCompile>
+    <ClCompile Include="cObjectManager.cpp">
+      <Filter>USER\MANAGERS\cObjectManager</Filter>
+    </ClCompile>
+    <ClCompile Include="cScene.cpp">
+      <Filter>USER\SCENES\cScene</Filter>
+    </ClCompile>
+    <ClCompile Include="cGameObject.cpp">
+      <Filter>USER\GAMEOBJECT\cGameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="cLoadingScene.cpp">
+      <Filter>USER\SCENES\cLoadingScene</Filter>
+    </ClCompile>
+    <ClCompile Include="cIngameScene.cpp">
+      <Filter>USER\SCENES\cIngameScene</Filter>
+    </ClCompile>
+    <ClCompile Include="cTileMap.cpp">
+      <Filter>USER\GAMEOBJECT\TILES\cTileMap</Filter>
+    </ClCompile>
+    <ClCompile Include="cTextManager.cpp">
+      <Filter>USER\MANAGERS\cTextManager</Filter>
+    </ClCompile>
+    <ClCompile Include="cInputManager.cpp">
+      <Filter>USER\MANAGERS\cInputManager</Filter>
+    </ClCompile>
+    <ClCompile Include="cIntroScene.cpp">
+      <Filter>USER\SCENES\cIntroScene</Filter>
+    </ClCompile>
+    <ClCompile Include="cMainmenuScene.cpp">
+      <Filter>USER\SCENES\cMainmenuScene</Filter>
+    </ClCompile>
+    <ClCompile Include="cAnimation.cpp">
+      <Filter>cAnimation</Filter>
+    </ClCompile>
+    <ClCompile Include="cViewPointMover.cpp">
+      <Filter>USER\GAMEOBJECT\ANY\cViewPointMover</Filter>
+    </ClCompile>
+    <ClCompile Include="cScroolMap.cpp">
+      <Filter>USER\GAMEOBJECT\MAP\cScroolMap</Filter>
+    </ClCompile>
+    <ClCompile Include="cShipPlaceScene.cpp">
+      <Filter>USER\SCENES\cShipPlaceScene</Filter>
+    </ClCompile>
+    <ClCompile Include="cTileObject.cpp">
+      <Filter>USER\GAMEOBJECT\TILES\cTileObject</Filter>
+    </ClCompile>
+    <ClCompile Include="cTileObjectUnit.cpp">
+      <Filter>USER\GAMEOBJECT\TILES\cTileObjectUnit</Filter>
+    </ClCompile>
+    <ClCompile Include="cIngameTileObject.cpp">
+      <Filter>USER\GAMEOBJECT\TILES\cIngameTileObject</Filter>
+    </ClCompile>
+    <ClCompile Include="cMapLoader.cpp">
+      <Filter>USER\MANAGERS\cMapLoader</Filter>
+    </ClCompile>
+    <ClCompile Include="cTimerString.cpp">
+      <Filter>USER\GAMEOBJECT\GUI\cTimerString</Filter>
+    </ClCompile>
+    <ClCompile Include="cCannon.cpp">
+      <Filter>USER\GAMEOBJECT\CANNON\cCannon</Filter>
+    </ClCompile>
+    <ClCompile Include="cPlayerCannon.cpp">
+      <Filter>USER\GAMEOBJECT\CANNON\cPlayerCannon</Filter>
+    </ClCompile>
+    <ClCompile Include="cEnemyCannon.cpp">
+      <Filter>USER\GAMEOBJECT\CANNON\cEnemyCannon</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>UTILITY</Filter>
+    </ClCompile>
+    <ClCompile Include="cTileExplode.cpp">
+      <Filter>USER\GAMEOBJECT\EFFECT\cTileExplode</Filter>
+    </ClCompile>
+    <ClCompile Include="cSoundManager.cpp">
+      <Filter>USER\MANAGERS\cSoundManager</Filter>
+    </ClCompile>
+    <ClCompile Include="cCastle.cpp">
+      <Filter>USER\GAMEOBJECT\CASTLES\cCastle</Filter>
+    </ClCompile>
+    <ClCompile Include="cPlayerCastle.cpp">
+      <Filter>USER\GAMEOBJECT\CASTLES\cPlayerCastle</Filter>
+    </ClCompile>
+    <ClCompile Include="cEnemyCastle.cpp">
+      <Filter>USER\GAMEOBJECT\CASTLES\cEnemyCastle</Filter>
+    </ClCompile>
+    <ClCompile Include="cFade.cpp">
+      <Filter>USER\MANAGERS\cFade</Filter>
+    </ClCompile>
+    <ClCompile Include="cTileSmoke.cpp">
+      <Filter>USER\GAMEOBJECT\EFFECT\cTileSmoke</Filter>
+    </ClCompile>
+    <ClCompile Include="cSoldier.cpp">
+      <Filter>USER\GAMEOBJECT\SOLDIER\cSoldier</Filter>
+    </ClCompile>
+    <ClCompile Include="cPlayerSoldier.cpp">
+      <Filter>USER\GAMEOBJECT\SOLDIER\cPlayerSoldier</Filter>
+    </ClCompile>
+    <ClCompile Include="cEnemySoldier.cpp">
+      <Filter>USER\GAMEOBJECT\SOLDIER\cEnemySolier</Filter>
+    </ClCompile>
+    <ClCompile Include="cImageUI.cpp">
+      <Filter>USER\GAMEOBJECT\GUI\cImageUI</Filter>
+    </ClCompile>
+    <ClCompile Include="cHpBar.cpp">
+      <Filter>USER\GAMEOBJECT\GUI\cHpBar</Filter>
+    </ClCompile>
+    <ClCompile Include="cButton.cpp">
+      <Filter>USER\GAMEOBJECT\GUI\cButton</Filter>
+    </ClCompile>
+    <ClCompile Include="cScoreBoard.cpp">
+      <Filter>USER\GAMEOBJECT\GUI\cScoreBoard</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CLInclude Include="resource.h">
+      <Filter>Resource Files</Filter>
+    </CLInclude>
+    <ResourceCompile Include="BattleShip.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+    <ClInclude Include="maingame.h">
+      <Filter>maingame</Filter>
+    </ClInclude>
+    <ClInclude Include="cGameManager.h">
+      <Filter>USER\MANAGERS\cGameManager</Filter>
+    </ClInclude>
+    <ClInclude Include="cImageManager.h">
+      <Filter>USER\MANAGERS\cImageManager</Filter>
+    </ClInclude>
+    <ClInclude Include="cSceneManager.h">
+      <Filter>USER\MANAGERS\cSceneManager</Filter>
+    </ClInclude>
+    <ClInclude Include="cObjectManager.h">
+      <Filter>USER\MANAGERS\cObjectManager</Filter>
+    </ClInclude>
+    <ClInclude Include="cScene.h">
+      <Filter>USER\SCENES\cScene</Filter>
+    </ClInclude>
+    <ClInclude Include="cGameObject.h">
+      <Filter>USER\GAMEOBJECT\cGameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="cLoadingScene.h">
+      <Filter>USER\SCENES\cLoadingScene</Filter>
+    </ClInclude>
+    <ClInclude Include="singleton.h">
+      <Filter>UTILITY</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>UTILITY</Filter>
+    </ClInclude>
+    <ClInclude Include="cIngameScene.h">
+      <Filter>USER\SCENES\cIngameScene</Filter>
+    </ClInclude>
+    <ClInclude Include="cTileMap.h">
+      <Filter>USER\GAMEOBJECT\TILES\cTileMap</Filter>
+    </ClInclude>
+    <ClInclude Include="cTextManager.h">
+      <Filter>USER\MANAGERS\cTextManager</Filter>
+    </ClInclude>
+    <ClInclude Include="cInputManager.h">
+      <Filter>USER\MANAGERS\cInputManager</Filter>
+    </ClInclude>
+    <ClInclude Include="cIntroScene.h">
+      <Filter>USER\SCENES\cIntroScene</Filter>
+    </ClInclude>
+    <ClInclude Include="cMainmenuScene.h">
+      <Filter>USER\SCENES\cMainmenuScene</Filter>
+    </ClInclude>
+    <ClInclude Include="cAnimation.h">
+      <Filter>cAnimation</Filter>
+    </ClInclude>
+    <ClInclude Include="cViewPointMover.h">
+      <Filter>USER\GAMEOBJECT\ANY\cViewPointMover</Filter>
+    </ClInclude>
+    <ClInclude Include="cScroolMap.h">
+      <Filter>USER\GAMEOBJECT\MAP\cScroolMap</Filter>
+    </ClInclude>
+    <ClInclude Include="cShipPlaceScene.h">
+      <Filter>USER\SCENES\cShipPlaceScene</Filter>
+    </ClInclude>
+    <ClInclude Include="cTileObject.h">
+      <Filter>USER\GAMEOBJECT\TILES\cTileObject</Filter>
+    </ClInclude>
+    <ClInclude Include="cTileObjectUnit.h">
+      <Filter>USER\GAMEOBJECT\TILES\cTileObjectUnit</Filter>
+    </ClInclude>
+    <ClInclude Include="cIngameTileObject.h">
+      <Filter>USER\GAMEOBJECT\TILES\cIngameTileObject</Filter>
+    </ClInclude>
+    <ClInclude Include="cMapLoader.h">
+      <Filter>USER\MANAGERS\cMapLoader</Filter>
+    </ClInclude>
+    <ClInclude Include="cTimerString.h">
+      <Filter>USER\GAMEOBJECT\GUI\cTimerString</Filter>
+    </ClInclude>
+    <ClInclude Include="cCannon.h">
+      <Filter>USER\GAMEOBJECT\CANNON\cCannon</Filter>
+    </ClInclude>
+    <ClInclude Include="cPlayerCannon.h">
+      <Filter>USER\GAMEOBJECT\CANNON\cPlayerCannon</Filter>
+    </ClInclude>
+    <ClInclude Include="cEnemyCannon.h">
+      <Filter>USER\GAMEOBJECT\CANNON\cEnemyCannon</Filter>
+    </ClInclude>
+    <ClInclude Include="cTileExplode.h">
+      <Filter>USER\GAMEOBJECT\EFFECT\cTileExplode</Filter>
+    </ClInclude>
+    <ClInclude Include="cSoundManager.h">
+      <Filter>USER\MANAGERS\cSoundManager</Filter>
+    </ClInclude>
+    <ClInclude Include="cCastle.h">
+      <Filter>USER\GAMEOBJECT\CASTLES\cCastle</Filter>
+    </ClInclude>
+    <ClInclude Include="cPlayerCastle.h">
+      <Filter>USER\GAMEOBJECT\CASTLES\cPlayerCastle</Filter>
+    </ClInclude>
+    <ClInclude Include="cEnemyCastle.h">
+      <Filter>USER\GAMEOBJECT\CASTLES\cEnemyCastle</Filter>
+    </ClInclude>
+    <ClInclude Include="cFade.h">
+      <Filter>USER\MANAGERS\cFade</Filter>
+    </ClInclude>
+    <ClInclude Include="cTileSmoke.h">
+      <Filter>USER\GAMEOBJECT\EFFECT\cTileSmoke</Filter>
+    </ClInclude>
+    <ClInclude Include="cSoldier.h">
+      <Filter>USER\GAMEOBJECT\SOLDIER\cSoldier</Filter>
+    </ClInclude>
+    <ClInclude Include="cPlayerSoldier.h">
+      <Filter>USER\GAMEOBJECT\SOLDIER\cPlayerSoldier</Filter>
+    </ClInclude>
+    <ClInclude Include="cEnemySoldier.h">
+      <Filter>USER\GAMEOBJECT\SOLDIER\cEnemySolier</Filter>
+    </ClInclude>
+    <ClInclude Include="cImageUI.h">
+      <Filter>USER\GAMEOBJECT\GUI\cImageUI</Filter>
+    </ClInclude>
+    <ClInclude Include="cHpBar.h">
+      <Filter>USER\GAMEOBJECT\GUI\cHpBar</Filter>
+    </ClInclude>
+    <ClInclude Include="cButton.h">
+      <Filter>USER\GAMEOBJECT\GUI\cButton</Filter>
+    </ClInclude>
+    <ClInclude Include="cScoreBoard.h">
+      <Filter>USER\GAMEOBJECT\GUI\cScoreBoard</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>
